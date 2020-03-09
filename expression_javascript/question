@@ -1,0 +1,39 @@
+                Example 1)
+
+                input:
+
+                                {
+
+                                                "OP":"=",
+
+                                                "LHS":"x",
+
+                                                "RHS":"3"
+
+                                }
+
+                Output: x=3
+
+                Example 2)
+
+                input:
+
+                                {
+
+                                                "OP":"=",
+
+                                                "LHS":"x",
+
+                                                "RHS":{
+
+                                                                "OP":"+",
+
+                                                                "LHS":"4",
+
+                                                                "RHS":"3"
+
+                                                }
+
+                                }
+
+                Output: x=4+3
